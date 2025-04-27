@@ -4,3 +4,4 @@
 
 venv/*
 venv
+api/__pycache__
