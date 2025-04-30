@@ -13,8 +13,8 @@ import java.util.concurrent.TimeUnit
  */
 object ApiClient {
 
-    // IMPORTANT: Replace with your actual base API URL
-    private const val BASE_URL = "http://10.200.23.240:2242" // <-- CHANGE THIS
+
+    private const val BASE_URL = "http://10.200.23.240:2242"
 
     // Lazy initialization of the ApiService
     val instance: ApiService by lazy {
